@@ -11,7 +11,7 @@ max_enemy2 = 1
 max_enemy3 = 2
 max_pickle = 1
 max_bullet1 = 5
-coins = 10000
+coins = 0
 pickle_money_need = 25
 speed_money_need = 75
 massive_attack_money_need = 100
@@ -488,7 +488,7 @@ def main_menu():
                 if PLAY_BUTTON.checkForInput(MENU_MOUSE_POS):
                     game()
                 if OPTIONS_BUTTON.checkForInput(MENU_MOUSE_POS):
-                    if wave >= 10:
+                    if wave >= 25:
                         options_menu()
                 if QUIT_BUTTON.checkForInput(MENU_MOUSE_POS):
                     quit()
